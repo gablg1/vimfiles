@@ -136,8 +136,8 @@ set autoread
 " Enable syntax highlighting
 syntax on
 " Sets the colorscheme for terminal sessions too.
-colorscheme molokai
-autocmd BufEnter * colorscheme molokai
+"colorscheme molokai
+"autocmd BufEnter * colorscheme molokai
 
 " Leader = ,
 let mapleader = ","
