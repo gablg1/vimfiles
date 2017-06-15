@@ -49,6 +49,10 @@ Plug 'Quramy/vim-js-pretty-template'
 Plug 'keith/swift.vim'
 Plug 'benmills/vimux'
 Plug 'hashivim/vim-terraform'
+
+"Gabe stuff"
+Plug 'kchmck/vim-coffee-script'
+Plug 'mtscout6/vim-cjsx'
 " }}}
 " ##### Plug post-setup {{{
 call plug#end()
