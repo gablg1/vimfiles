@@ -141,6 +141,10 @@ syntax on
 
 " Leader = ,
 let mapleader = ","
+
+" Make default register copy to clipboard
+set clipboard=unnamed
+
 " }}}
 " ##### General mappings  {{{
 " ##### Tabs {{{
