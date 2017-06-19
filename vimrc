@@ -53,6 +53,7 @@ Plug 'hashivim/vim-terraform'
 "Gabe stuff"
 Plug 'kchmck/vim-coffee-script'
 Plug 'mtscout6/vim-cjsx'
+Plug 'bronson/vim-trailing-whitespace'
 " }}}
 " ##### Plug post-setup {{{
 call plug#end()
@@ -87,7 +88,7 @@ set ruler
 " Highlight matches as you type.
 set incsearch
 " Don't highlight matches.
-set nohlsearch
+set hlsearch
 
 " Turn off line wrapping.
 set nowrap    
@@ -205,6 +206,7 @@ nnoremap <leader>fs :set lines=999 columns=9999<cr>
 
 " Fix C-h on Neovim (read https://github.com/christoomey/vim-tmux-navigator#it-doesnt-work-in-neovim-specifically-c-h)
 nnoremap <silent> <BS> :TmuxNavigateLeft<cr>
+nnoremap <leader>w :FixWhitespace<CR>
 " }}}
 " }}}
 " ##### Plugin settings  {{{
@@ -368,6 +370,10 @@ autocmd BufRead,BufNewFile *.json set filetype=javascript
 
 " Sets html syntax for *.ejs files.
 autocmd BufRead,BufNewFile *.ejs set filetype=html
+" }}}
+" ##### CoffeeScript  {{{
+set tabstop=4
+set shiftwidth=4
 " }}}
 " ##### Vim {{{
 " Make vimrcs open folded
