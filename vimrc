@@ -153,6 +153,7 @@ nnoremap <leader>t :tabnew<cr>
 nnoremap <leader>e :tabedit
 nnoremap <leader>c :tabclose<cr>
 nnoremap <leader>n :tabnext<cr>
+nnoremap <C-i> :tabnext<cr>
 nnoremap <leader>p :tabprevious<cr>
 " }}}
 " ##### Line movement {{{
